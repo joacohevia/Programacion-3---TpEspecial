@@ -37,7 +37,6 @@ public class FabricaGreedy {
             if ((piezasAct + act.getNumPiezas()) <= piezasAproducir){
                 caminoAct.add(act);
                 piezasAct += act.getNumPiezas();
-                //i++; ELIMINARR
             } else {
                 i++;// si produce piezas de mas paso a la siguiente
             }
